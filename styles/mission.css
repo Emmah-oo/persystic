@@ -160,9 +160,9 @@ body{
         font-size: .8rem;
     }
 
-    footer {
+    /* footer {
         margin: -24rem 0;
-    }
+    } */
 }
 
 @media (max-width: 350px) {

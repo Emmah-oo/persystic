@@ -35,6 +35,7 @@ body{
 
 .showcase p {
     margin: 1rem 0;
+    text-align: start;
 }
 
 .showcase .img-1 {
@@ -82,7 +83,16 @@ body{
 }
 
 @media (max-width: 600px) {
+    .img-2 {
+        display: flex;
+        width: 250px;
+    }
+
     .showcase h1 {
         font-size: 2rem;
+    }
+
+    .showcase h1 {
+        line-height: 1;
     }
 }
