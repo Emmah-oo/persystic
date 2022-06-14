@@ -1,0 +1,168 @@
+.showcase {
+    padding: 4rem 0;
+}
+
+.showcase-img img{
+    width: 750px;
+}
+
+.showcase-text {
+    color: #fff;
+}
+
+.showcase-text p {
+    margin: 1rem 0;
+}
+
+.showcase-text h1, p {
+    line-height: 1.5;
+}
+
+.showcase-text h1 {
+    font-size: 3rem;
+}
+
+.showcase ul {
+    line-height: 1.7;
+}
+
+.showcase .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 70%;
+}
+
+.business {
+    padding: 5rem 0;
+}
+
+.business-img {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.business h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.business img {
+    object-fit: contain;
+    height: 50px;
+    width: 200px;
+    margin: .3rem 1rem;
+}
+
+.business .flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: -13rem 0;
+} */
+
+@media (max-width: 1900px) {
+    .showcase .grid {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .business {
+        padding: 8rem 0;
+    }
+
+   .business img {
+    height: 30px;
+    width: 150px;
+   }
+}
+
+@media (max-width: 1500px) {
+    .showcase .grid {
+        width: 90%;
+    }
+
+    .showcase-img img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .business-img {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .showcase .grid {
+        width: 90%;
+    }
+
+    .showcase-img img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .showcase {
+        padding: 2rem 0;
+    }
+    
+    .showcase-text h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .showcase .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-text {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .showcase-img img {
+        width: 400px;
+    }
+
+    .business-img {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .showcase-img img {
+        width: 350px;
+    }
+
+    .showcase-text p,li {
+        font-size: .8rem;
+    }
+
+    footer {
+        margin: -24rem 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .business .flex {
+        width: 100%;
+    }
+
+    .showcase-img img {
+        width: 250px;
+    }
+}

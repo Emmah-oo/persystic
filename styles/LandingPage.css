@@ -1,0 +1,259 @@
+body {
+    /* min-height: 100vh; */
+    background-color: #141036;
+}
+
+.main-header {
+    width: 100vw;
+}
+
+.showcase {
+    color: #fff;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+.showcase-img img {
+    width: 500px
+}
+
+.showcase .flex{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.showcase h2 {
+    font-size: 24px;
+    margin-top: -.5rem;
+}
+
+.showcase h3 {
+    font-size: 15px;
+    margin: 1rem 0;
+    color:#fff ;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.countdown-container h1 {
+    font-size: 2rem;
+}
+
+.header {
+    color: #fff;
+}
+
+.countdown-container h1, p {
+    background: linear-gradient(180deg, #50D9FC 0%, #FFFFFF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.countdown-container p {
+    font-size: .7rem;
+}
+
+.days {
+    text-align: center;
+    padding: .8rem 1.5rem;
+    border-radius: .4rem;
+    background: linear-gradient(360deg, #FFFFFF -1.87%, rgba(72, 214, 250, 0.1) 1.84%, rgba(72, 214, 250, 0.1) 100%);
+}
+
+.hours {
+    padding: .8rem 1.5rem;
+    border-radius: .4rem;
+    background: linear-gradient(360deg, #FFFFFF -1.87%, rgba(72, 214, 250, 0.1) 1.84%, rgba(72, 214, 250, 0.1) 100%);
+}
+
+.minutes {
+    padding: .8rem 1.5rem;
+    border-radius: .4rem;
+    background: linear-gradient(360deg, #FFFFFF -1.87%, rgba(72, 214, 250, 0.1) 1.84%, rgba(72, 214, 250, 0.1) 100%);
+}
+
+.seconds {
+    padding: .8rem 1.5rem;
+    border-radius: .4rem;
+    background: linear-gradient(360deg, #FFFFFF -1.87%, rgba(72, 214, 250, 0.1) 1.84%, rgba(72, 214, 250, 0.1) 100%);
+}
+
+.colon {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #1ED5FD;
+}
+  
+
+.showcase-img {
+    margin: 2.5rem 0;
+    z-index: 0;
+}
+
+showcase-para {
+    color: #fff !important;
+}
+
+.bg-left {
+    position: absolute;
+    top: 120px;
+    width: 600px;
+}
+
+.bg-right {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 600px;
+    /* opacity: 0.2; */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 2500px) {
+    .showcase-img img {
+        width: 800px;
+    }
+
+    .showcase {
+        padding: 5rem 0;
+    }
+
+    .showcase h3 {
+        font-size: 1.5rem;
+    }
+
+    .countdown-container p {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 1500px) {
+    .showcase-img img {
+        width: 400px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .showcase {
+        padding: 2rem 0;
+    }
+
+    .showcase h1 {
+        font-size: 40px;
+    }
+
+    .showcase h2 {
+        font-size: 10px;
+        margin-top: .4rem;
+    }
+
+    .showcase h3 {
+        font-size: .8rem;
+    }
+
+    .countdown-container {
+        justify-content: center;
+    }
+
+    .countdown-container h1 {
+        font-size: 1rem;
+    }
+
+    .countdown-container p {
+        font-size: .7rem;
+    }
+
+    .days {
+        text-align: center;
+        padding: .4rem .7rem;
+    }
+    
+    .hours {
+        padding: .4rem .7rem;
+    }
+    
+    .minutes {
+        padding: .4rem .7rem;
+    }
+    
+    .seconds {
+        padding: .4rem .7rem;
+    }
+
+    .showcase-img img {
+        width: 400px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .showcase-img img {
+        width: 300px;
+    }
+
+    footer {
+        margin: -18rem 0;
+    }
+}
+
+@media(max-width: 800px) {
+    footer {
+        margin: -19rem 0;
+    }
+
+    footer .col div li {
+        font-size: .7rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .showcase-img {
+        margin-bottom: 5rem;
+    }
+
+    .showcase h2 {
+        font-size: 12px;
+    }
+
+    .showcase h3 {
+        font-size: .6rem;
+    }
+
+    footer {
+        margin: -15rem 0;
+    }
+}
+
+@media(max-width: 300px) {
+    .showcase-img img {
+        width: 200px;
+    }
+
+    .countdown-container h1 {
+        font-size: .7rem;
+    }
+
+    .countdown-container p {
+        font-size: .5rem;
+    }
+}
