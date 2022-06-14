@@ -10,7 +10,7 @@ body{
     position: relative;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
-    
+    background-color: #141036;
     min-height: 100vh;
 }
 
