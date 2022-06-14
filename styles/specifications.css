@@ -96,3 +96,9 @@ body{
         line-height: 1;
     }
 }
+
+@media (max-width: 300px) {
+    .showcase h1 {
+        font-size: 1rem;
+    }
+}
