@@ -6,7 +6,10 @@ body{
     font-family: 'Inter', sans-serif;
     background-color: #141036;
     min-height: 100vh;
-    position: relative;
+    background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
@@ -71,6 +74,10 @@ footer .col div li {
     text-decoration: none;
 }
 
+footer .col div a {
+    text-decoration: none;
+}
+
 footer .col div li:hover {
     color: #50D9FC;
 }
@@ -91,6 +98,7 @@ footer .col-4 div li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 14px;
 }
 
 /* footer .col-4 div {
