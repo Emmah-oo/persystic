@@ -1,13 +1,18 @@
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     background-color: #141036;
     min-height: 100vh;
+    background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .showcase {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .showcase-img img{
@@ -39,13 +44,27 @@ body{
     width: 75%;
 }
 
+footer {
+    margin-top: auto;
+    z-index: 1;
+}
 
+footer .col div .bsc {
+    color: #50D9FC;
+}
 
 @media (min-width: 2000px) {
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+    .showcase-img img {
+        width: 800px;
+    }
+
+    .showcase-text h1 {
+        font-size: 3rem;
+    }
+
+    .showcase-text p {
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 }
 
@@ -55,9 +74,13 @@ body{
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
+    .showcase {
+        padding: 8rem 0;
+    }
+
     .showcase-img img {
-        width: 450px;
+        width: 400px;
     }
 
     .showcase .grid {

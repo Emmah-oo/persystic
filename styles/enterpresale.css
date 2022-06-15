@@ -1,9 +1,14 @@
 body{
-  position: relative;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
   background-color: #141036;
   min-height: 100vh;
+  background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-header h1 {
@@ -257,4 +262,9 @@ p {
     left: 40%;
     width: 300px;
     opacity: 1;
+}
+
+footer {
+  margin-top: auto;
+  z-index: 1;
 }

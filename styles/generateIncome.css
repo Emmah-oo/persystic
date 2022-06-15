@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     background-color: #141036;
     min-height: 100vh;
+    background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .showcase {
-    padding: 4rem 0;
+    padding: 2rem 0;
 
 }
 
@@ -34,16 +39,12 @@ body{
 .showcase-text h1 {
     margin: 1rem 0;
     font-size: 2rem;
+    font-weight: 600;
 }
 
 .showcase-text p {
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.7;
-}
-
-.wrapper {
-    height: 100vh;
-    position: relative;
 }
 
 .main-bg {
@@ -51,16 +52,33 @@ body{
     width: 500px;
 }
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-} */
+footer {
+    margin-top: auto;
+    z-index: 1;
+}
 
-@media (max-width: 2550px) {
-    /* footer {
-        bottom: 0;
-    } */
+footer .col div .generate-income {
+    color: #50D9FC;
+}
+
+@media (min-width: 2100px) {
+    .showcase .grid {
+        width: 80%;
+    }
+
+   .showcase-img img {
+    width: 1000px;
+   }
+
+   .showcase-text h1 {
+    font-size: 2.5rem;
+}
+
+.showcase-text p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
 }
 
 @media (max-width: 1200px) {
@@ -82,8 +100,12 @@ body{
 }
 
 @media (max-width: 500px) {
+
+    .showcase {
+        padding: 2rem 0;
+    }
     .showcase-img img {
-        width: 300px;
+        width: 320px;
     }
     .showcase-text h1 {
         font-size: 1.4rem;
@@ -91,6 +113,11 @@ body{
 
     .showcase-text p  {
         font-size: 1rem;
+    }
+
+
+    .showcase .grid {
+        width: 95%;
     }
 }
 

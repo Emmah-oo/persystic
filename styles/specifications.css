@@ -1,9 +1,14 @@
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     background-color: #141036;
     min-height: 100vh;
+    background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-2 {
@@ -22,7 +27,6 @@ body{
 }
 
 .showcase h1, p {
-    width: 75%;
     text-align: center;
     color: #fff;
     margin: 0.5rem 0;
@@ -43,12 +47,14 @@ body{
     margin-top: 2rem;
 }
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: -27rem 0;
-} */
+footer {
+    margin-top: auto;
+    z-index: 1;
+}
+
+footer .col div .specs {
+    color: #50D9FC;
+}
 
 @media (max-width: 1350px) {
     .showcase .img-1 {
@@ -85,7 +91,7 @@ body{
 @media (max-width: 600px) {
     .img-2 {
         display: flex;
-        width: 250px;
+        width: 90%;
     }
 
     .showcase h1 {
@@ -94,6 +100,10 @@ body{
 
     .showcase h1 {
         line-height: 1;
+    }
+
+    .showcase {
+        padding: 1rem 0;
     }
 }
 

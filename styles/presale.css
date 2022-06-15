@@ -1,13 +1,18 @@
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     background-color: #141036;
     min-height: 100vh;
+    background-image: url("/img/generateIncome/background.png"), url("/img/generateIncome/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .showcase {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .showcase .container {
@@ -41,11 +46,13 @@ body{
 .stages {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
 }
 
 .stage {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    text-transform: uppercase;
 }
 
 .stage .col {
@@ -126,14 +133,17 @@ body{
 
 .colon {
     font-size: 1.5rem;
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
+    color: #1ED5FD;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: -15rem 0;
+    margin-top: auto;
+    z-index: 1;
+}
+
+footer .col div .presale {
+    color: #50D9FC;
 }
 
 @media (max-width: 1000px) {
@@ -158,10 +168,6 @@ footer {
     .col-5 {
         grid-column: -1/1;
     }
-
-    footer {
-        margin: -30rem 0;
-    }
 }
 
 @media (max-width: 500px) {
@@ -177,5 +183,33 @@ footer {
 @media (max-width: 350px) {
     .stages, .stage {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 280px) {
+    .countdown-container h1 {
+        font-size: .8rem;
+    }
+
+    .days {
+        padding: .2rem .5rem;
+    }
+    
+    .hours {
+        padding: .2rem .5rem;
+    }
+    
+    .minutes {
+        padding: .2rem .5rem;
+    }
+    
+    .seconds {
+        padding: .2rem .5rem;
+    }
+    
+    .colon {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        color: #1ED5FD;
     }
 }
