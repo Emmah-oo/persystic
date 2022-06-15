@@ -41,6 +41,7 @@ body {
 
 .showcase p {
   color: #fff;
+  font-size: .7rem;
 }
 
 .stages {
@@ -207,6 +208,14 @@ footer .col div .presale {
   .stages,
   .stage {
     grid-template-columns: 1fr;
+  }
+
+  .countdown-container h1 {
+    font-size: .7rem;
+  }
+
+  .showcase p {
+    font-size: .5rem;
   }
 }
 

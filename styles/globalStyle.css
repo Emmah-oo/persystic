@@ -89,7 +89,25 @@ footer .col-4 div li {
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  cursor: pointer;
 }
+
+.socials {
+  opacity: 0;
+}
+
+.active-social {
+  opacity: 1;
+}
+
+.col-4a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
 
 @media (max-width: 2500px) {
   footer .col img {
@@ -120,5 +138,13 @@ footer .col-4 div li {
 
   footer .container {
     align-items: normal;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .social-mobile-active {
+    display: block;
   }
 }

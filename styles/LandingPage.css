@@ -40,13 +40,13 @@ body {
 }
 
 .showcase h2 {
-  font-size: 19px;
-  margin-top: -0.5rem;
-  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0.1rem;
+  font-weight: 600;
 }
 
 .showcase h3 {
-  font-size: 1.1rem;
+  font-size: 0.7rem;
   margin: 0.5rem 0;
   color: #fff;
   font-weight: 200;
@@ -69,16 +69,11 @@ body {
   color: #fff;
 }
 
-.countdown-container h1,
-p {
+.countdown-container h1 {
   background: linear-gradient(180deg, #50d9fc 0%, #ffffff 100%);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
-
-.countdown-container p {
-  font-size: 0.5rem;
 }
 
 .days {
@@ -141,19 +136,6 @@ p {
 
 showcase-para {
   color: #fff !important;
-}
-
-.bg-left {
-  position: absolute;
-  top: 120px;
-  width: 600px;
-}
-
-.bg-right {
-  position: absolute;
-  top: 120px;
-  right: 0;
-  width: 600px;
 }
 
 footer {

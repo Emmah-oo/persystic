@@ -30,14 +30,17 @@ body {
 .showcase-text h1,
 p {
   line-height: 1.5;
+  line-height: 1.7;
 }
 
 .showcase-text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .showcase ul {
-  line-height: 1.7;
+  padding-left: 1.1rem;
+  line-height: 1.8;
+  font-size: .9rem;
 }
 
 .showcase .grid {
@@ -125,7 +128,7 @@ footer .col div .mission {
   }
 
   .showcase-img img {
-    width: 600px;
+    width: 550px;
   }
 }
 

@@ -16,15 +16,12 @@ body {
   padding: 2rem 0;
 }
 
-/* .showcase .container {
-    
-} */
-
 .showcase .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 70%;
   place-items: center;
+  gap: 5%;
 }
 
 .showcase-img img {
@@ -60,9 +57,10 @@ footer .col div .generate-income {
   color: #50d9fc;
 }
 
+
 @media (max-width: 1900px) {
   .showcase .grid {
-    width: 80%;
+    width: 85%;
   }
 
   .showcase {
@@ -80,7 +78,7 @@ footer .col div .generate-income {
   .showcase-text p {
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.5;
+    line-height: 1.7;
   }
 }
 

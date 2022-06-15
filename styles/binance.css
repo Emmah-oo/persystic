@@ -26,11 +26,11 @@ body {
 
 .showcase-text p {
   margin: 1rem 0;
+  font-size: .8rem;
 }
 
 .showcase-text h1 {
   font-size: 2rem;
-  margin: 2rem 0;
 }
 
 .showcase-text h1,
@@ -99,7 +99,13 @@ footer .col div .bsc {
   }
 
   .showcase-text h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
     text-align: center;
+  }
+
+  .showcase-text p {
+    font-size: .7rem;
   }
 }
 
