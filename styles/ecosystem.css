@@ -1,103 +1,103 @@
-body{
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    font-family: 'Inter', sans-serif;
-    background-color: #141036;
-    min-height: 100vh;
-    background-image: url("../img/background.png"), url("../img/bg-img.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  background-color: #141036;
+  min-height: 100vh;
+  background-image: url("../img/background.png"), url("../img/bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .showcase {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
-.showcase-img img{
-    width: 400px;
+.showcase-img img {
+  width: 400px;
 }
 
 .showcase-text {
-    color: #fff;
+  color: #fff;
 }
 
 .showcase-text p {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .showcase-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .showcase-text p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .showcase .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    width: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 65%;
 }
 
 footer {
-    margin-top: auto;
-    z-index: 1;
+  margin-top: auto;
+  z-index: 1;
 }
 
 footer .col div .ecosystem {
-    color: #50D9FC;
+  color: #50d9fc;
 }
 
 @media (max-width: 1500px) {
-    .showcase .grid {
-        width: 75%;
-    }
+  .showcase .grid {
+    width: 75%;
+  }
 
-    .showcase-img img {
-        width: 500px;
-    }
+  .showcase-img img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 1250px) {
-    .showcase .grid {
-        width: 85%;
-    }
-    
-    .showcase-img img {
-        width: 400px;
-    }
+  .showcase .grid {
+    width: 85%;
+  }
+
+  .showcase-img img {
+    width: 400px;
+  }
 }
 
 @media (max-width: 1000px) {
-    .showcase .grid {
-        grid-template-columns: 1fr;
-    }
+  .showcase .grid {
+    grid-template-columns: 1fr;
+  }
 
-    footer {
-        position: relative;
-    }
+  footer {
+    position: relative;
+  }
 }
 
 @media (max-width: 500px) {
-    .showcase-img img {
-        width: 300px;
-    }
+  .showcase-img img {
+    width: 300px;
+  }
 
-    .showcase-text h1 {
-        font-size: 1.5rem;
-    }
+  .showcase-text h1 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 300px) {
-    .showcase-img img {
-        width: 200px;
-    }
+  .showcase-img img {
+    width: 200px;
+  }
 
-    .showcase-text h1 {
-        font-size: 1.5rem;
-    }
+  .showcase-text h1 {
+    font-size: 1.5rem;
+  }
 }

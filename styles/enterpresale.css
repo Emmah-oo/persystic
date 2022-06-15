@@ -1,8 +1,8 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #141036;
   min-height: 100vh;
   background-image: url("../img/background.png"), url("../img/bg-img.png");
@@ -114,7 +114,7 @@ h2 {
 .colon {
   font-size: 1.5rem;
   margin: 0 0.5rem;
-  color: #1ED5FD;
+  color: #1ed5fd;
   font-size: 1rem;
 }
 
@@ -167,7 +167,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   color: #fff;
-  border: 0.5px solid #28206B;
+  border: 0.5px solid #28206b;
   padding: 2rem;
   margin-top: 1rem;
   text-align: center;
@@ -192,76 +192,75 @@ p {
 }
 
 .quantity-box {
-    border: 1px solid #28206B;
-    width: 76%;
-    margin: 0 auto;
-    padding: 2rem;
+  border: 1px solid #28206b;
+  width: 76%;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .quantity-box img {
-    margin-top: 1rem;
-    width: 100%;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .quantity {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .quantity h1 {
-    padding: 0 .4rem;
-    font-size: .8rem;
-    color: #fff;
-    align-self: baseline;
+  padding: 0 0.4rem;
+  font-size: 0.8rem;
+  color: #fff;
+  align-self: baseline;
 }
 
 .presale-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
 }
 
 .presale-btn button {
-    background: #50D9FC;
-    padding: 16px;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 0px 8px 32px 0px #50D9FC66;
+  background: #50d9fc;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 8px 32px 0px #50d9fc66;
 }
 
 .sold-out {
-    padding: 6rem 0;
-    position: relative;
+  padding: 6rem 0;
+  position: relative;
 }
 
 .sold-out-header h1 {
-    color: #fff;
-    font-size: 2rem;
+  color: #fff;
+  font-size: 2rem;
 }
 
 .sold-out-content {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 80%;
-    margin: 0 auto;
-    /* position: relative; */
-    opacity: .2;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.2;
 }
 
 .sold-out .header {
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .sold-out img {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    width: 300px;
-    opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 300px;
+  opacity: 1;
 }
 
 footer {
