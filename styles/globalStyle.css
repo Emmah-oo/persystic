@@ -132,6 +132,10 @@ footer .col-4 div li {
     footer .container {
         align-items: normal;
     }
+
+    footer .col-4 div li {
+        margin: 1rem 0;
+    }
 }
 
 

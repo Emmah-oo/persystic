@@ -43,7 +43,7 @@ body{
 }
 
 .showcase .img-1 {
-    width: 1300px;
+    width: 1200px;
     margin-top: 2rem;
 }
 
@@ -91,7 +91,7 @@ footer .col div .specs {
 @media (max-width: 600px) {
     .img-2 {
         display: flex;
-        width: 90%;
+        width: 75%;
     }
 
     .showcase h1 {

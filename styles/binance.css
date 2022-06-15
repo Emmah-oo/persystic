@@ -76,7 +76,7 @@ footer .col div .bsc {
 
 @media (max-width: 1200px) {
     .showcase {
-        padding: 8rem 0;
+        padding: 3rem 0;
     }
 
     .showcase-img img {
@@ -90,7 +90,7 @@ footer .col div .bsc {
 
 @media (max-width: 900px) {
     .showcase {
-        padding: 0;
+        padding: 0rem;
     }
 
     .showcase .grid {
