@@ -169,3 +169,13 @@ footer .col-4 div li {
     display: block;
   }
 }
+
+@media (max-width: 400px) {
+  .logo img{
+    width: 80px;
+  }
+
+  .btn {
+    padding: 8px 7px;
+  }
+}
