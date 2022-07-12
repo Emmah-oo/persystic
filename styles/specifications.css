@@ -45,9 +45,10 @@ p {
 }
 
 .showcase .img-1 {
-  width: 1200px;
+  width: 100%;
   margin-top: 2rem;
 }
+
 
 footer {
   margin-top: auto;

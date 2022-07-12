@@ -41,7 +41,7 @@ body {
 
 .showcase p {
   color: #fff;
-  font-size: .7rem;
+  font-size: .9rem;
 }
 
 .stages {
@@ -53,7 +53,7 @@ body {
 
 .stage {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   text-transform: uppercase;
   width: 85%;
 }
@@ -161,6 +161,87 @@ h2 {
   color: #1ed5fd;
 }
 
+.offer {
+  padding: 3rem 0;
+  width: 63%;
+  margin: 0 auto;
+}
+
+.offer .container {
+  position: relative;
+}
+
+.offer-container {
+  background: #FFFFFF1A;
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 10rem;
+  padding-right: 4rem;
+}
+
+.gift-1 {
+  position: absolute;
+  top: -4vh;
+  left: -8vw;
+  width: 30%;
+}
+
+.gift-2 {
+  position: absolute;
+  top: -3vh;
+  right: -3vw;
+  width: 10%;
+}
+
+.gift-3 {
+  display: none;
+}
+
+.offer-container h1 {
+  color: #FFEA39;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.offer-container p{
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.offer-container span {
+  color: #50D9FC;
+}
+
+.token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+.token-container h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: -2%;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.token-container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+
 footer {
   margin-top: auto;
   z-index: 1;
@@ -189,8 +270,56 @@ footer .col div .presale {
     margin: 0;
   }
 
-  .col-5 {
-    grid-column: -1/1;
+  .offer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .gift-1 {
+   top: 7vh;
+   left: -14vw;
+   width: 40%;
+  }
+
+  .gift-2 {
+    width: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .offer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .gift-1 {
+   display: none;
+  }
+
+  .gift-3 {
+    display: block;
+    position: absolute;
+    bottom: -3vh;
+    left: -10vw;
+    width: 40%;
+  }
+
+  .gift-2 {
+    width: 20%;
+  }
+
+  .offer-container h1 {
+    font-size: 20px;
+  }
+
+  .offer-container p {
+    font-size: 18px;
   }
 }
 
@@ -202,6 +331,13 @@ footer .col div .presale {
   .countdown-container h2 {
     font-size: 0.4rem;
   }
+
+  .gift-1 {
+    top: 20vh;
+    left: -26vw;
+    width: 60%;
+  }
+
 }
 
 @media (max-width: 450px) {

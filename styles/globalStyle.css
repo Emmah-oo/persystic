@@ -105,6 +105,10 @@ footer .col-4 div li {
   margin-top: 1rem;
 }
 
+.socials a {
+  color: transparent;
+}
+
 .col-4a {
   display: flex;
   justify-content: space-between;
