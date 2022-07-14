@@ -188,6 +188,7 @@ h2 {
   top: -4vh;
   left: -8vw;
   width: 30%;
+  z-index: 1;
 }
 
 .gift-2 {
@@ -195,10 +196,12 @@ h2 {
   top: -3vh;
   right: -3vw;
   width: 10%;
+  z-index: 1;
 }
 
 .gift-3 {
   display: none;
+  z-index: 1;
 }
 
 .offer-container h1 {
