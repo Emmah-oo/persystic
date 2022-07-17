@@ -291,6 +291,14 @@ footer .col div .presale {
   .gift-2 {
     width: 20%;
   }
+
+  .showcase h1 {
+    font-size: 1.5rem;
+  }
+
+  .showcase p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -299,6 +307,11 @@ footer .col div .presale {
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .stages,
+  .stage {
+    grid-template-columns: 1fr;
   }
 
   .gift-1 {
@@ -341,20 +354,19 @@ footer .col div .presale {
     width: 60%;
   }
 
-}
-
-@media (max-width: 450px) {
-  .stages,
-  .stage {
-    grid-template-columns: 1fr;
-  }
-
-  .countdown-container h1 {
-    font-size: .7rem;
+  .showcase h1 {
+    font-size: 1.2rem;
   }
 
   .showcase p {
-    font-size: .5rem;
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .countdown-container h1 {
+    font-size: .7rem;
   }
 }
 
@@ -363,7 +375,7 @@ footer .col div .presale {
     font-size: 0.8rem;
   }
 
-  .days {
+  /* .days {
     padding: 0.2rem 0.5rem;
   }
 
@@ -377,7 +389,7 @@ footer .col div .presale {
 
   .seconds {
     padding: 0.2rem 0.5rem;
-  }
+  } */
 
   .colon {
     font-size: 1rem;
