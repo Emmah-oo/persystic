@@ -1,4 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+.goog-te-gadget .goog-te-combo  {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.goog-logo-link {
+  display:none !important;
+} 
+  
+.goog-te-gadget{
+  color: transparent !important;
+}
+
+#google_translate_element{display:block; margin-top: .5rem;}
+.goog-te-banner-frame.skiptranslate { display: none !important;} 
+body { top: 0px !important; }
+#goog-gt-tt{display: none !important; top: 0px !important; } 
+.goog-tooltip skiptranslate{display: none !important; top: 0px !important; } 
+.activity-root { display: hide !important;} 
+.status-message { display: hide !important;}
+.started-activity-container { display: hide !important;}
+
+option {
+  background-color: #0d0a2c;
+}
+
+.language {
+  margin-top: -2rem !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,25 +75,11 @@ nav {
   cursor: pointer;
 }
 
-select {
-  outline: 0;
-  padding: .4rem;
-  border-radius: .4rem;
-  cursor: pointer;
-  border: 0;
-  padding: 10px 18px;
-  border-radius: 0.4rem;
-  width: 100px;
-  background-color: #0d0a2c;
-  color: #fff;
-  margin-left: 1rem;
-}
-
-option {
-  cursor: pointer;
-  background-color: #0d0a2c;
-  border: 0;
-  color: #fff;
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 footer {
