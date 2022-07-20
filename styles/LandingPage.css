@@ -5,10 +5,6 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #141036;
   min-height: 100vh;
-  background-image: url(../img/landing-page.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .main-header {
@@ -19,10 +15,6 @@ body {
   color: #fff;
   padding: 2rem 0;
   text-transform: uppercase;
-}
-
-.showcase-img img {
-  width: 650px;
 }
 
 .showcase .flex {
@@ -128,10 +120,18 @@ body {
 }
 
 .showcase-img {
-  margin: 2.5rem 0;
+  margin-top: -4rem;
   z-index: 0;
   margin-bottom: -7rem;
-  position: relative;
+  width: 100% !important;
+}
+
+.showcase-img img {
+  width: 100% !important;
+}
+
+.img-mb {
+  display: none;
 }
 
 showcase-para {
@@ -144,10 +144,6 @@ footer {
 }
 
 @media (min-width: 1900px) {
-  .showcase-img img {
-    width: 650px;
-  }
-
   .showcase h3 {
     font-size: 1.5rem;
   }
@@ -161,34 +157,14 @@ footer {
   }
 }
 
-@media (max-width: 1900px) {
-  body {
-    background-size: contain;
-    background-position: top 23% left 49%;
-  }
-}
 
 @media (max-width: 1500px) {
-  body {
-    background-size: contain;
-    background-position: top 35% left 49%;
-  }
-
-  .showcase-img img {
-    width: 660px;
-  }
-
   .showcase-img {
     margin-bottom: -4rem;
   }
 }
 
 @media (max-width: 1100px) {
-  body {
-    background-size: contain;
-    background-position: top 29% left 47%;
-  }
-
   .showcase .showcase-header {
     font-size: 40px;
   }
@@ -230,29 +206,6 @@ footer {
   .seconds {
     padding: 0.4rem 0.7rem;
   }
-
-  .showcase-img img {
-    width: 400px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .showcase-img img {
-    width: 400px;
-  }
-}
-
-@media (max-width: 800px) {
-  .showcase-img img {
-    width: 300px;
-  }
-}
-
-@media (max-width: 700px) {
-  body {
-    background-size: contain;
-    background-position: top 32% left 47%;
-  }
 }
 
 @media (max-width: 600px) {
@@ -264,20 +217,32 @@ footer {
     font-size: 0.6rem;
   }
 
-  .showcase-img img {
-    width: 300px;
+  .showcase-img {
+    margin-top: -20rem;
+    margin-bottom: -10rem;
+  }
+
+  .img-dk {
+    display: none !important;
+  }
+
+  .img-mb {
+    display: block !important;
   }
 }
 
-@media (max-width: 300px) {
-  .showcase-img img {
-    width: 150px;
+@media (max-width: 400px) {
+  .showcase-img {
+    margin-top: -15rem;
+    margin-bottom: -10rem;
   }
 }
 
+
 @media (max-width: 300px) {
-  .showcase-img img {
-    width: 150px;
+  .showcase-img {
+    margin-top: -10rem;
+    margin-bottom: -7rem;
   }
 
   .countdown-container h1 {

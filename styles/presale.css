@@ -181,6 +181,7 @@ h2 {
   padding-bottom: 2rem;
   padding-left: 10rem;
   padding-right: 4rem;
+  z-index: -1;
 }
 
 .gift-1 {
@@ -188,7 +189,7 @@ h2 {
   top: -4vh;
   left: -8vw;
   width: 30%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .gift-2 {
@@ -196,18 +197,19 @@ h2 {
   top: -3vh;
   right: -3vw;
   width: 10%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .gift-3 {
   display: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 .offer-container h1 {
   color: #FFEA39;
   font-weight: 900;
   font-size: 32px;
+  text-transform: uppercase;
 }
 
 .offer-container p{
