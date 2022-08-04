@@ -25,12 +25,6 @@ body {
   align-items: center;
 }
 
-.showcase .showcase-header {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
 .showcase h2 {
   font-size: 16px;
   margin-top: 0.1rem;
@@ -119,21 +113,6 @@ body {
   color: #1ed5fd;
 }
 
-.showcase-img {
-  margin-top: -4rem;
-  z-index: 0;
-  margin-bottom: -7rem;
-  width: 100% !important;
-}
-
-.showcase-img img {
-  width: 100% !important;
-}
-
-.img-mb {
-  display: none;
-}
-
 showcase-para {
   color: #fff !important;
 }
@@ -154,13 +133,6 @@ footer {
 
   .showcase .showcase-header {
     font-size: 80px;
-  }
-}
-
-
-@media (max-width: 1500px) {
-  .showcase-img {
-    margin-bottom: -4rem;
   }
 }
 
@@ -216,35 +188,9 @@ footer {
   .showcase h3 {
     font-size: 0.6rem;
   }
-
-  .showcase-img {
-    margin-top: -20rem;
-    margin-bottom: -10rem;
-  }
-
-  .img-dk {
-    display: none !important;
-  }
-
-  .img-mb {
-    display: block !important;
-  }
 }
-
-@media (max-width: 400px) {
-  .showcase-img {
-    margin-top: -15rem;
-    margin-bottom: -10rem;
-  }
-}
-
 
 @media (max-width: 300px) {
-  .showcase-img {
-    margin-top: -10rem;
-    margin-bottom: -7rem;
-  }
-
   .countdown-container h1 {
     font-size: 0.7rem;
   }
