@@ -1,0 +1,19 @@
+.btn-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showcase {
+    z-index: 1 !important;
+}
+
+.showcase-img {
+    z-index: -1 !important;
+}
